@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: #2f3136;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #36393f;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+#delete{
+  margin-left: 10px;
+  margin-right: -12px;
+  background-color: #b40a0a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#pdfbutton{
+  background-color:#4752c4
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #202225;
+  color: #fff;
+}
+
+select {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #202225;
+  color: #fff;
+}
+
+button {
+  padding: 10px;
+  background-color: #5865f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  animation: ease 0.3s
+}
+
+button:hover {
+  background-color: #5865f2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: #202225;
+  padding: 10px;
+  border-radius: 6px;
+}
